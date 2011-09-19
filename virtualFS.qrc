@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>apostilas.png</file>
+        <file>back.png</file>
+        <file>buy.png</file>
+        <file>carregando.png</file>
+        <file>casa.png</file>
+        <file>cloud.png</file>
+        <file>comprar.png</file>
+        <file>conta.png</file>
+        <file>exit.ico</file>
+        <file>exit.png</file>
+        <file>favicon.ico</file>
+        <file>first.png</file>
+        <file>home.png</file>
+        <file>home-icon.jpg</file>
+        <file>icone_tray_cliente.ico</file>
+        <file>icone_tray_manager.ico</file>
+        <file>imprimir.png</file>
+        <file>last.png</file>
+        <file>last-.png</file>
+        <file>mail.ico</file>
+        <file>main.png</file>
+        <file>next.png</file>
+        <file>print.png</file>
+        <file>registro.ico</file>
+        <file>sync0.png</file>
+        <file>sync2.png</file>
+        <file>zoom_in.png</file>
+        <file>zoom_out.png</file>
+    </qresource>
+    <qresource prefix="/paginas">
+        <file>modelo.png</file>
+    </qresource>
+</RCC>
