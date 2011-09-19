@@ -34,7 +34,7 @@ void PdfReader::AutoAdd(int valor) {
 
     qDebug() << valor;
     /*
-    if( valor == this->ui->scrollArea->verticalScrollBar()->maximum() ){
+    if( valor == this->ui->desktop->verticalScrollBar()->maximum() ){
     this->novaPagina();
     }
 */
