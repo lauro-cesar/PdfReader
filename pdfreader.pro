@@ -4,6 +4,12 @@
 #
 #-------------------------------------------------
 
+win32:INCLUDEPATH  +=  "C:\\Arquivos de programas\\KDE\\include\\poppler\\qt4"
+win32:LIBS         += -L"C:\\Arquivos de programas\\KDE\\lib" -lpoppler-qt4
+unix:INCLUDEPATH  += /usr/include/poppler/qt4
+unix:LIBS         += -L/usr/lib -lpoppler-qt4
+
+
 QT       += core gui
 
 TARGET = pdfreader
@@ -23,3 +29,6 @@ unix:FORMS    += pdfreader.ui
 
 unix:RESOURCES += \
     virtualFS.qrc
+
+OTHER_FILES += \
+    Readme.txt
